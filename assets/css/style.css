@@ -1,0 +1,149 @@
+body{
+    display: flex;
+    
+    flex-direction: column;
+}
+p{
+    font-size: 20px;
+    
+}
+main{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.quiz{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#qa-box1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+nav a{
+    display: flex;
+    padding: 20px;
+    margin-right: 700px;
+    text-decoration: none;
+}
+nav h2{
+    display: flex;
+}
+.btn{
+    width: 80px;
+    padding: 5px;
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+   
+}
+.answer{
+    display: block;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    color: white;
+    text-align: left;
+    margin: 5px;
+   
+}
+.answer2{
+    display: block;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    color: white;
+    text-align: left;
+    margin: 5px;
+}
+.answer3{
+    display: block;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    color: white;
+    text-align: left;
+    margin: 5px;
+}
+.answer4{
+    display: block;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    color: white;
+    text-align: left;
+    margin: 5px;
+}
+.answer5{
+    display: block;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    color: white;
+    text-align: left;
+    margin: 5px;
+}
+ #submit-inital{
+    width: 80px;
+    padding: 5px;
+    margin-left: 2px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+ }
+.answer-rows{
+    text-align: left;
+}
+#qa-box1 {
+    display: none;
+}
+#qa-box2{
+    display: none;
+}
+#answer{
+    display: block;
+}
+#qa-box3{
+    display: none;
+}
+#qa-box4{
+    display: none;
+}
+#qa-box5{
+    display: none;
+}
+#final{
+    display: none;
+}
+/*.correct{
+    display: none;
+}*/

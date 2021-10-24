@@ -4,10 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Code Quiz</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="" id="score">View high scores</a>
+            <h2 id="countdown">Time:</h2>
+            <h2 id="time"></h2>
+        </nav>
+    </header>
+    <main>
+        <section class="quiz" id="firstpage">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the follwing code-related quistions within the time limit keep in mind that the incorrect answer will penalize your score/time by ten seconds!</p>
+            <button class="btn" id="start">Start Quiz</button>
+        </section>
+        <!--the first question and answers-->
+        <section id="qa-box1">
+            
+                <h3>Commonly used data type do NOT include:</h3>
+                <div class ="answers-rows">
+                <button class="answer" id="answer-btn" >1.Strings</button>
+                <button class="answer" id="answer-btn">2.Booleans</button>
+                <button class="answer" id="answer-btn">3.Alerts</button>
+                <button class="answer" id="answer-btn">4.Numbers</button>
+                </div>
+                <p class="correct-wrong"></p>
+            </section>
+            <!--the second question and answers -->
+        <section id="qa-box2">
+            
+                <h3>the condition in an if/else statment is enclosed with _______ .</h3>
+                <div class="answers-rows">
+                <button class="answer2" >1.quoutes</button>
+                <button class="answer2"  >2.curly brackets</button>
+                <button class="answer2" >3.parenthesis</button>
+                <button class="answer2" >4.square brackets</button> 
+                </div> 
+            </section>
+            <!--the 3rd question and answers-->
+        <section id="qa-box3">
+            
+                <h3>Array in JavaScript can be used to store ________.</h3>
+                <div class="answers-rows">
+                <button class="answer3" >1.numbers and strings</button> 
+                <button class="answer3"  >2.other array</button> 
+                <button class="answer3"  >3.booleanss</button> 
+                <button class="answer3" >4.all of the above</button> 
+                </div>
+            </section>
+            <!--the 4th question and answers-->
+        <section id="qa-box4">
+            
+                <h3>String value must be enclosed within _______ when being assigned to variables.</h3>
+                <div class="answer-row">
+                <button class="answer4"  >1.commas</button> 
+                <button class="answer4"  >2.curly brackets</button> 
+                <button class="answer4"  >3.quoutes</button> 
+                <button class="answer4"  >4.parenthesis</button> 
+                </div>
+            </section>
+            <!--the 5th question and answers-->
+        <section id="qa-box5">
+            
+                <h3>A very useful tool used during development and debugging for printing content to the debugger is:</h3>
+                <div class="answers-rows">
+                <button class="answer5"  >1.JavaScript</button> 
+                <button class="answer5"  >2.terminal/bash</button> 
+                <button class="answer5" >3.for loops</button> 
+                <button class="answer5" >4.console.log</button> 
+               </div>
+            </section>
+            <!--score section-->
+            <section id ="final">
+                <h3>All done!</h3>
+                <h4>Your final score is:<span id="final-score"></span></h4>
+                <span>Enter Initials:<input type="text" id="initial"><button id="submit-inital">Submit</button></span>
+            </section>
+            <p id="show-score"></p>
+     </main>
+        
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
 
